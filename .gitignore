@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+.env/
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Ignore large files
+src/fpscores.pkl.gz
+
+
+# Data folders (optional if large)
+data/processed/
+*.csv
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
