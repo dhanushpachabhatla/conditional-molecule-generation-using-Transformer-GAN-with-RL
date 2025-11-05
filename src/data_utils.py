@@ -79,7 +79,7 @@ def build_vocabulary(smiles_list):
     token2idx['<END>'] = len(token2idx)
     return token2idx
 
-def split_dataset(df, train_frac=0.8, val_frac=0.1):
+def split_dataset(df, train_frac=0.9, val_frac=0.05):
     """Split dataframe into train/val/test."""
     train_end = int(len(df) * train_frac)
     val_end = int(len(df) * (train_frac + val_frac))

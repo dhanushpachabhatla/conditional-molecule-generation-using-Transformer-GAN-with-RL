@@ -15,7 +15,10 @@ src/fpscores.pkl.gz
 
 
 # Data folders (optional if large)
+data/
 data/processed/
+data/processed_5l/
+results/
 *.csv
 
 # OS / IDE files
