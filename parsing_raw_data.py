@@ -9,7 +9,7 @@ INPUT_FOLDER = "C:/Users/dhanu/Desktop/bio-info data"
 OUTPUT_FILE = "pubchem_cleaned_molecules.csv"
 
 
-# STEP 1: Extract .sdf.gz if needed
+# STEP 1: Extract .sdf.gz 
 def decompress_gz(file_path):
     if file_path.endswith(".gz"):
         output_path = file_path[:-3]  # remove .gz
